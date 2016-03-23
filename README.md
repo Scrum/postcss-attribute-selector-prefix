@@ -28,7 +28,6 @@ $ npm install postcss-attribute-selector-prefix
 ```
 
 ## Usage
-Use postcss-attribute-selector-prefix before you at-rules plugin
 
 ```js
 // dependencies
