@@ -1,0 +1,49 @@
+{
+  "name": "postcss-attribute-selector-prefix",
+  "version": "0.0.0",
+  "description": "A attribute selector prefixer for postcss",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "xo ./src/*.js ./test/*.js && nyc ava",
+    "clean": "rm -rf lib && mkdir lib",
+    "build": "npm run clean && babel src/index.js --out-file lib/index.js && npm t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitScrum/postcss-attribute-selector-prefix.git"
+  },
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "prefix",
+    "css"
+  ],
+  "author": "Scrum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GitScrum/postcss-attribute-selector-prefix/issues"
+  },
+  "homepage": "https://github.com/GitScrum/postcss-attribute-selector-prefix#readme",
+  "babel": {
+    "presets": [
+      "node5"
+    ]
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  },
+  "dependencies": {
+    "postcss": "^5.0.19"
+  },
+  "devDependencies": {
+    "ava": "^0.13.0",
+    "babel-cli": "^6.6.5",
+    "babel-preset-node5": "^11.0.0",
+    "babel-register": "^6.7.2",
+    "coveralls": "^2.11.8",
+    "nyc": "^6.1.1",
+    "xo": "^0.13.0"
+  }
+}
