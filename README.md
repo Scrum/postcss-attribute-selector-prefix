@@ -34,15 +34,16 @@ $ npm install postcss-attribute-selector-prefix
 // dependencies
 var fs = require("fs");
 var postcss = require("postcss");
-var attrSelector = require("postcss-attribute-selector-prefix");
+var attrSelectorPrefix = require("postcss-attribute-selector-prefix").default;
 
 // css to be processed
 var css = fs.readFileSync("css/input.css", "utf8");
 
 // process css
 var output = postcss()
-  .use(attrSelector({ prefix: 'test-' }))
-  .css;
+	.use(attrSelectorPrefix({prefix: 'sl-'}))
+	.process(css)
+	.css;
 
 console.log(output);
 ```
