@@ -9,7 +9,7 @@
 .class, 
 [type="text"], 
 [class*="lorem"] { 
-	color:red; 
+    color:red; 
 }
 ```
 
@@ -18,7 +18,7 @@
 .class, 
 [type="text"], 
 [class*="test-lorem"] { 
-	color:red; 
+    color:red; 
 }
 ```
 
@@ -34,16 +34,16 @@ $ npm install postcss-attribute-selector-prefix
 // dependencies
 var fs = require("fs");
 var postcss = require("postcss");
-var attrSelectorPrefix = require("postcss-attribute-selector-prefix").default;
+var attrSelectorPrefix = require("postcss-attribute-selector-prefix");
 
 // css to be processed
 var css = fs.readFileSync("css/input.css", "utf8");
 
 // process css
 var output = postcss()
-	.use(attrSelectorPrefix({prefix: 'sl-'}))
-	.process(css)
-	.css;
+    .use(attrSelectorPrefix({prefix: 'sl-'}))
+    .process(css)
+    .css;
 
 console.log(output);
 ```
@@ -68,7 +68,7 @@ Example: `['class', 'id']`
 [type="text"], 
 [class*="lorem"],
 [id^="myID"] { 
-	color: red; 
+    color: red; 
 }
 ```
 
@@ -78,7 +78,7 @@ Example: `['class', 'id']`
 [type="text"], 
 [class*="test-lorem"],
 [id^="test-myID"] { 
-	color: red; 
+    color: red; 
 }
 ```
 
@@ -95,7 +95,7 @@ Example: `['type', 'alt']`
 [type="text"], 
 [alt*="ALT"],
 [class*="class"] { 
-	color: red; 
+    color: red; 
 }
 ```
 
@@ -105,7 +105,7 @@ Example: `['type', 'alt']`
 [type="text"], 
 [alt*="ALT"],
 [class*="test-class"] { 
-	color: red; 
+    color: red; 
 }
 ```
 
