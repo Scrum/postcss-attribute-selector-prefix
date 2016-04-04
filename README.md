@@ -34,7 +34,7 @@ $ npm install postcss-attribute-selector-prefix
 // dependencies
 var fs = require("fs");
 var postcss = require("postcss");
-var attrSelectorPrefix = require("postcss-attribute-selector-prefix").default;
+var attrSelectorPrefix = require("postcss-attribute-selector-prefix");
 
 // css to be processed
 var css = fs.readFileSync("css/input.css", "utf8");
