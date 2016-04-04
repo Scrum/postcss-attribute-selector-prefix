@@ -27,6 +27,9 @@
   "babel": {
     "presets": [
       "node5"
+    ],
+    "plugins": [
+      "add-module-exports"
     ]
   },
   "ava": {
@@ -40,6 +43,7 @@
   "devDependencies": {
     "ava": "^0.13.0",
     "babel-cli": "^6.6.5",
+    "babel-plugin-add-module-exports": "^0.1.2",
     "babel-preset-node5": "^11.0.0",
     "babel-register": "^6.7.2",
     "coveralls": "^2.11.8",
