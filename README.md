@@ -41,7 +41,7 @@ var css = fs.readFileSync("css/input.css", "utf8");
 
 // process css
 var output = postcss()
-    .use(attrSelectorPrefix({prefix: 'sl-'}))
+    .use(attrSelectorPrefix({prefix: 'test-'}))
     .process(css)
     .css;
 
