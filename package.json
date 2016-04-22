@@ -42,14 +42,14 @@
     "postcss": "^5.0.19"
   },
   "devDependencies": {
-    "ava": "^0.13.0",
-    "babel-cli": "^6.6.5",
+    "ava": "^0.14.0",
+    "babel-cli": "^6.7.7",
     "babel-plugin-add-module-exports": "^0.1.2",
-    "babel-preset-node5": "^11.0.0",
+    "babel-preset-node5": "^11.0.2",
     "babel-register": "^6.7.2",
-    "coveralls": "^2.11.8",
-    "nyc": "^6.1.1",
+    "coveralls": "^2.11.9",
+    "nyc": "^6.4.0",
     "updtr": "^0.1.10",
-    "xo": "^0.13.0"
+    "xo": "^0.14.0"
   }
 }
