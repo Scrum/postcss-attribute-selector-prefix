@@ -1,3 +1,11 @@
+## [0.0.2] - 22-04-2016
+### Added
+- Added #9, updtr
+
+### Change
+- Update #7, devDep
+- Return #7, return xo to v0.13, v0.14 report error ava/no-indentical-title see https://github.com/sindresorhus/generator-nm/issues/45
+
 ## [0.0.1] - 04-04-2016
 ### Added
 - Added #4, babel-plugin-add-module-export
