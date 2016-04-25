@@ -1,3 +1,10 @@
+## [0.0.3] - 25-04-2016
+### Change
+- Update .npmignore added nyc and sublime
+
+### Fixed
+- Fixed #13, module not found
+
 ## [0.0.2] - 22-04-2016
 ### Added
 - Added #9, updtr
