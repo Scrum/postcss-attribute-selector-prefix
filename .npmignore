@@ -3,3 +3,6 @@ src/
 .gitignore
 .travis.yml
 coverage/
+.nyc_output/
+npm-debug.log
+*.sublime*
