@@ -28,7 +28,7 @@ test('processing options prefix, filter and attribute selector', t => {
 	t.is(processing(fixtures, {prefix: 'test-', filter: ['class']}), expected);
 });
 
-test('processing options prefix, filter and attribute selector', t => {
+test('processing options prefix, filter and attribute selector witch indentical class filter', t => {
 	const expected = '.class, [type="text"], [alt*="class"] { color:red; }';
 	const fixtures = '.class, [type="text"], [alt*="class"] { color:red; }';
 	t.is(processing(fixtures, {prefix: 'test-', filter: ['class']}), expected);

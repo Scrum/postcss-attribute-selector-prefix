@@ -5,7 +5,7 @@ const filter = (filter, attributeSelector) => new RegExp(filter.map(attribut => 
 export default postcss.plugin('postcss-attribute-selector-prefix', options => {
 	return nodes => {
 		return nodes.walkRules(rule => {
-			rule.selector = rule.selector.replace(/\[.*?\]/g, (match) => {
+			rule.selector = rule.selector.replace(/\[.*?\]/g, match => {
 				if (options.prefix === undefined) {
 					return match;
 				}
