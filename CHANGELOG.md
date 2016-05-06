@@ -1,3 +1,19 @@
+## [0.0.5] - 06-05-2016
+### Change
+- Update #19, change log forgot 0.0.4
+
+## [0.0.4] - 27-04-2016
+### Added
+- Added #11, eslint-formatter-pretty
+
+### Change
+- Update #16, devDep
+- Change #11, xo to eslint
+- Update #15, node 6 in travis config
+
+### Fixed
+- Fixed #11, eslint report error
+
 ## [0.0.3] - 25-04-2016
 ### Change
 - Update .npmignore added nyc and sublime
