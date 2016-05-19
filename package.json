@@ -3,6 +3,7 @@
   "version": "0.0.5",
   "description": "A attribute selector prefixer for postcss",
   "main": "./lib/index.js",
+  "files": "./lib/index.js",
   "scripts": {
     "test": "eslint --format=node_modules/eslint-formatter-pretty ./src/*.js ./test/*.js && nyc ava",
     "clean": "rm -rf lib && mkdir lib",
