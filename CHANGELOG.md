@@ -1,3 +1,13 @@
+## [0.0.5] - 19-05-2016
+### Added
+- Added #28, files in pkg
+
+### Change
+- Update devDep
+
+### Remove
+- Remove #29, babel presets
+
 ## [0.0.5] - 06-05-2016
 ### Change
 - Update #19, change log forgot 0.0.4
