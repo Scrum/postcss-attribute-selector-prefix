@@ -1,3 +1,10 @@
+## [0.0.7] - 23-05-2016
+### Change
+- Update devDep
+
+### Fixed
+- Fixed #31, files path in pkg.json
+
 ## [0.0.6] - 19-05-2016
 ### Added
 - Added #28, files in pkg
