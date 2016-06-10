@@ -56,11 +56,10 @@
     ]
   },
   "dependencies": {
-    "babel-preset-node5": "^11.1.0",
     "postcss": "^5.0.21"
   },
   "devDependencies": {
-    "ava": "^0.15.0",
+    "ava": "^0.15.2",
     "ava-codemods": "^0.2.1",
     "babel-cli": "^6.9.0",
     "babel-eslint": "^6.0.4",
