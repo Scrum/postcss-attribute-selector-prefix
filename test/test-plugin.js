@@ -25,29 +25,44 @@ test('processing options prefix and attribute selector', t => {
 test('processing options prefix, filter and attribute selector', t => {
 	const expected = '.class, [type="text"], [class*="test-lorem"] { color:red; }';
 	const fixtures = '.class, [type="text"], [class*="lorem"] { color:red; }';
-	t.is(processing(fixtures, {prefix: 'test-', filter: ['class']}), expected);
+	t.is(processing(fixtures, {
+		prefix: 'test-',
+		filter: ['class']
+	}), expected);
 });
 
 test('processing options prefix, filter and attribute selector witch indentical class filter', t => {
 	const expected = '.class, [type="text"], [alt*="class"] { color:red; }';
 	const fixtures = '.class, [type="text"], [alt*="class"] { color:red; }';
-	t.is(processing(fixtures, {prefix: 'test-', filter: ['class']}), expected);
+	t.is(processing(fixtures, {
+		prefix: 'test-',
+		filter: ['class']
+	}), expected);
 });
 
 test('processing options filter and attribute selector', t => {
 	const expected = '.class, [type="text"], [class*="lorem"] { color:red; }';
 	const fixtures = '.class, [type="text"], [class*="lorem"] { color:red; }';
-	t.is(processing(fixtures, {filter: ['class']}), expected);
+	t.is(processing(fixtures, {
+		filter: ['class']
+	}), expected);
 });
 
 test('processing options prefix, filter, ignore and attribute selector', t => {
 	const expected = '.class, [type="text"], [class*="lorem"] { color:red; }';
 	const fixtures = '.class, [type="text"], [class*="lorem"] { color:red; }';
-	t.is(processing(fixtures, {prefix: 'test', filter: ['class'], ignore: ['class']}), expected);
+	t.is(processing(fixtures, {
+		prefix: 'test',
+		filter: ['class'],
+		ignore: ['class']
+	}), expected);
 });
 
 test('processing options prefix, ignore and attribute selector', t => {
 	const expected = '.class, [type="text"], [class*="test-lorem"] { color:red; }';
 	const fixtures = '.class, [type="text"], [class*="lorem"] { color:red; }';
-	t.is(processing(fixtures, {prefix: 'test-', ignore: ['type']}), expected);
+	t.is(processing(fixtures, {
+		prefix: 'test-',
+		ignore: ['type']
+	}), expected);
 });
