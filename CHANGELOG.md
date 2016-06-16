@@ -1,3 +1,8 @@
+## [0.0.8] - 23-05-2016
+### Change
+- Change babel preset
+- Update devDep
+
 ## [0.0.7] - 23-05-2016
 ### Change
 - Update devDep
