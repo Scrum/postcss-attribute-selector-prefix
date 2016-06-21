@@ -23,8 +23,8 @@
     "css"
   ],
   "author": {
-      "name": "GitScrum",
-      "email": "scrum@list.ru"
+    "name": "GitScrum",
+    "email": "scrum@list.ru"
   },
   "license": "MIT",
   "bugs": {
@@ -65,7 +65,7 @@
     "ava": "^0.15.2",
     "ava-codemods": "^0.2.1",
     "babel-cli": "^6.10.1",
-    "babel-eslint": "^6.0.4",
+    "babel-eslint": "^6.0.5",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-es2015-node": "^6.1.0",
     "babel-register": "^6.9.0",
