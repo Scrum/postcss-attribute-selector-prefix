@@ -33,11 +33,15 @@
   "homepage": "https://github.com/GitScrum/postcss-attribute-selector-prefix#readme",
   "babel": {
     "presets": [
-      "es2015-node"
+      "es2015-node",
+      "min"
     ],
     "plugins": [
       "add-module-exports"
-    ]
+    ],
+    "comments": false,
+    "compact": true,
+    "minified": true
   },
   "ava": {
     "require": [
@@ -65,18 +69,19 @@
     "ava": "^0.15.2",
     "ava-codemods": "^0.2.1",
     "babel-cli": "^6.10.1",
-    "babel-eslint": "^6.0.5",
+    "babel-eslint": "^6.1.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-es2015-node": "^6.1.0",
+    "babel-preset-min": "^0.1.5",
     "babel-register": "^6.9.0",
     "coveralls": "^2.11.9",
-    "eslint": "^2.10.2",
-    "eslint-config-xo": "^0.15.0",
+    "eslint": "^2.13.1",
+    "eslint-config-xo": "^0.15.2",
     "eslint-formatter-pretty": "^0.2.2",
     "eslint-plugin-ava": "^2.3.1",
-    "eslint-plugin-babel": "^3.2.0",
+    "eslint-plugin-babel": "^3.3.0",
     "eslint-plugin-require-path-exists": "^1.1.5",
-    "eslint-plugin-xo": "^0.5.0",
+    "eslint-plugin-xo": "^0.5.1",
     "nyc": "^6.4.4",
     "package-config-checker": "^1.0.0",
     "updtr": "^0.2.0"
