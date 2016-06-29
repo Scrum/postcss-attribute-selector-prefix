@@ -86,6 +86,6 @@
     "eslint-plugin-xo": "^0.5.1",
     "nyc": "^6.4.4",
     "package-config-checker": "^1.0.0",
-    "updtr": "^0.2.0"
+    "updtr": "^0.2.1"
   }
 }
