@@ -1,3 +1,12 @@
+## [0.0.9] - 29-06-2016
+### Added
+- Added #10, babel minify
+
+### Change
+- Update devDep
+- Change babel preset es2015
+- Wrap in array files property in pkg.json
+
 ## [0.0.8] - 16-06-2016
 ### Change
 - Change babel preset
