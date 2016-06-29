@@ -1,6 +1,6 @@
 {
   "name": "postcss-attribute-selector-prefix",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A attribute selector prefixer for postcss",
   "main": "lib/index.js",
   "files": [
