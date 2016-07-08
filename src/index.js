@@ -1,3 +1,5 @@
+'use strict';
+
 import postcss from 'postcss';
 
 const filter = (filter, attributeSelector) => new RegExp(filter.map(attribut => `^\\[${attribut}`).join('|')).test(attributeSelector);
