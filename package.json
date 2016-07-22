@@ -65,7 +65,7 @@
     ]
   },
   "dependencies": {
-    "postcss": "^5.0.21"
+    "postcss": "^5.1.0"
   },
   "devDependencies": {
     "ava": "^0.15.2",
