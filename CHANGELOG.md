@@ -1,3 +1,12 @@
+## [0.0.10] - 02-08-2016
+### Change
+- Update devDep
+- Update build with babel
+
+### Remove
+- Remove presets `min` - broken work on node < 6
+- Remove package-config-checker, not use
+
 ## [0.0.9] - 29-06-2016
 ### Added
 - Added #10, babel minify
