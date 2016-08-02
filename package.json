@@ -1,10 +1,10 @@
 {
   "name": "postcss-attribute-selector-prefix",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A attribute selector prefixer for postcss",
   "main": "lib/index.js",
   "files": [
-    "lib/index.js"
+    "lib/"
   ],
   "scripts": {
     "test": "eslint --format=node_modules/eslint-formatter-pretty ./src/*.js ./test/*.js && nyc ava",
