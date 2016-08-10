@@ -77,7 +77,7 @@
     "coveralls": "^2.11.12",
     "eslint": "^3.2.2",
     "eslint-config-xo": "^0.15.3",
-    "eslint-formatter-pretty": "^0.2.2",
+    "eslint-formatter-pretty": "^0.3.0",
     "eslint-plugin-ava": "^2.3.1",
     "eslint-plugin-babel": "^3.3.0",
     "eslint-plugin-require-path-exists": "^1.1.5",
