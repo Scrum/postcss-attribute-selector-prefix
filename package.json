@@ -82,7 +82,7 @@
     "eslint-plugin-babel": "^3.3.0",
     "eslint-plugin-require-path-exists": "^1.1.5",
     "eslint-plugin-xo": "^1.0.0",
-    "nyc": "^8.1.0",
+    "nyc": "^8.4.0",
     "updtr": "^0.2.2"
   }
 }
