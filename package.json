@@ -25,7 +25,8 @@
     "clean": "rm -rf lib && mkdir lib",
     "build": "npm run clean && babel src/ -d lib/",
     "prepublish": "npm run build",
-    "update": "updtr && ava-codemods --force"
+    "update": "updtr && ava-codemods --force",
+    "testen": "testen -n -- ava"
   },
   "files": [
     "lib/"
@@ -62,7 +63,16 @@
     "eslint-plugin-xo": "^1.0.0",
     "husky": "^0.11.9",
     "nyc": "^10.0.0",
+    "testen": "^1.8.2",
     "updtr": "^0.2.3"
+  },
+  "testen": {
+    "node": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
   },
   "babel": {
     "presets": [
