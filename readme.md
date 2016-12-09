@@ -3,7 +3,9 @@
 
 [![Travis Build Status](https://img.shields.io/travis/GitScrum/postcss-attribute-selector-prefix.svg?style=flat-square&label=unix)](https://travis-ci.org/GitScrum/postcss-attribute-selector-prefix)
 
-[![AppVeyor Build Status](https://img.shields.io/appveyor/ci/GitScrum/postcss-attribute-selector-prefix.svg?style=flat-square&label=windows)](https://ci.appveyor.com/project/GitScrum/postcss-attribute-selector-prefix)[![testen badge](https://img.shields.io/badge/testen-passing-brightgreen.svg?style=flat-square)][testen repo]
+[![AppVeyor Build Status](https://img.shields.io/appveyor/ci/GitScrum/postcss-attribute-selector-prefix.svg?style=flat-square&label=windows)](https://ci.appveyor.com/project/GitScrum/postcss-attribute-selector-prefix)
+
+[![testen badge](https://img.shields.io/badge/testen-passing-brightgreen.svg?style=flat-square)][testen repo]
 
 [![node](https://img.shields.io/node/v/postcss-attribute-selector-prefix.svg?maxAge=2592000&style=flat-square)]()
 
