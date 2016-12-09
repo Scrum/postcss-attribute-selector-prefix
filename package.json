@@ -2,41 +2,67 @@
   "name": "postcss-attribute-selector-prefix",
   "version": "0.0.10",
   "description": "A attribute selector prefixer for postcss",
+  "license": "MIT",
+  "repository": "GitScrum/postcss-attribute-selector-prefix",
+  "homepage": "GitScrum/postcss-attribute-selector-prefix#readme",
+  "bugs": "GitScrum/postcss-attribute-selector-prefix/issues",
+  "author": {
+      "name": "Ivan Demidov",
+      "email": "Scrum@list.ru",
+      "url": "https://twitter.com/Scrum_"
+  },
   "main": "lib/index.js",
-  "files": [
-    "lib/"
-  ],
+  "engines": {
+      "node": ">=4"
+  },
   "scripts": {
     "commitmsg": "conventional-changelog-lint -e",
     "postpublish": "conventional-changelog -i changelog.md -s -r 0 && git commit -am \"chore(changelog): Update changelog\"",
     "lintjs": "eslint ./src/*.js ./test/*.js",
     "lintmd": "eslint --ext md --rule indent: [error, 4] .",
-    "pretest": "npm run lintjs && npm run lintmd",
+    "pretest": "clinton && npm run lintjs && npm run lintmd",
     "test": "nyc ava",
     "clean": "rm -rf lib && mkdir lib",
     "build": "npm run clean && babel src/ -d lib/",
     "prepublish": "npm run build",
     "update": "updtr && ava-codemods --force"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GitScrum/postcss-attribute-selector-prefix.git"
-  },
+  "files": [
+    "lib/"
+  ],
   "keywords": [
     "postcss",
     "postcss-plugin",
     "prefix",
     "css"
   ],
-  "author": {
-    "name": "GitScrum",
-    "email": "scrum@list.ru"
+  "dependencies": {
+    "conventional-changelog-lint": "^1.1.0",
+    "husky": "^0.11.9",
+    "postcss": "^5.2.6"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/GitScrum/postcss-attribute-selector-prefix/issues"
+  "devDependencies": {
+    "ava": "*",
+    "ava-codemods": "^0.3.0",
+    "babel-cli": "^6.11.4",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-min": "^0.1.15",
+    "babel-register": "^6.11.6",
+    "clinton": "^0.8.0",
+    "coveralls": "^2.11.15",
+    "eslint": "^3.11.1",
+    "eslint-config-xo": "^0.17.0",
+    "eslint-formatter-pretty": "^1.0.0",
+    "eslint-plugin-ava": "^4.0.0",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-markdown": "^1.0.0-beta.3",
+    "eslint-plugin-require-path-exists": "^1.1.5",
+    "eslint-plugin-xo": "^1.0.0",
+    "nyc": "^10.0.0",
+    "updtr": "^0.2.3"
   },
-  "homepage": "https://github.com/GitScrum/postcss-attribute-selector-prefix#readme",
   "babel": {
     "presets": [
       "es2015"
@@ -69,30 +95,20 @@
       "plugin:ava/recommended"
     ]
   },
-  "dependencies": {
-    "conventional-changelog-lint": "^1.1.0",
-    "husky": "^0.11.9",
-    "postcss": "^5.2.6"
-  },
-  "devDependencies": {
-    "ava": "^0.17.0",
-    "ava-codemods": "^0.3.0",
-    "babel-cli": "^6.11.4",
-    "babel-eslint": "^7.1.1",
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-min": "^0.1.15",
-    "babel-register": "^6.11.6",
-    "coveralls": "^2.11.15",
-    "eslint": "^3.11.1",
-    "eslint-config-xo": "^0.17.0",
-    "eslint-formatter-pretty": "^1.0.0",
-    "eslint-plugin-ava": "^4.0.0",
-    "eslint-plugin-babel": "^4.0.0",
-    "eslint-plugin-markdown": "^1.0.0-beta.3",
-    "eslint-plugin-require-path-exists": "^1.1.5",
-    "eslint-plugin-xo": "^1.0.0",
-    "nyc": "^10.0.0",
-    "updtr": "^0.2.3"
+  "clinton": {
+    "ignores": [
+      "test/**",
+      "tmp/**",
+      "lib/**",
+      "*.{html,jpg}"
+    ],
+    "rules": {
+      "pkg-main": [
+        "off"
+      ],
+      "xo": [
+        "off"
+      ]
+    }
   }
 }
