@@ -1,6 +1,6 @@
 {
   "name": "postcss-attribute-selector-prefix",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "A attribute selector prefixer for postcss",
   "license": "MIT",
   "repository": "GitScrum/postcss-attribute-selector-prefix",
