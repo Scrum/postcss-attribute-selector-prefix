@@ -49,7 +49,7 @@
     "babel-cli": "^6.22.2",
     "babel-eslint": "^7.1.1",
     "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-babili": "^0.0.9",
+    "babel-preset-babili": "^0.0.10",
     "babel-preset-env": "^1.1.8",
     "babel-register": "^6.11.6",
     "clinton": "^0.11.0",
