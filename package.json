@@ -41,7 +41,7 @@
     "css"
   ],
   "dependencies": {
-    "postcss": "^5.2.14"
+    "postcss": "^5.2.16"
 
   },
   "devDependencies": {
