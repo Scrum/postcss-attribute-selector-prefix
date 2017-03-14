@@ -45,7 +45,7 @@
 
   },
   "devDependencies": {
-    "ava": "0.18.1",
+    "ava": "0.18.2",
     "babel-cli": "^6.23.0",
     "ava-codemods": "^0.3.2",
     "babel-eslint": "^7.1.1",
@@ -68,7 +68,7 @@
     "husky": "^0.13.1",
     "np": "^2.11.0",
     "nyc": "^10.1.2",
-    "testen": "^1.8.2",
+    "testen": "^2.2.0",
     "updtr": "^0.2.3"
   },
   "testen": {
