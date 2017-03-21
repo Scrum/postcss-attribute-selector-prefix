@@ -18,7 +18,7 @@ test('processing options prefix and not attribute selector', t => {
 
 test('processing options prefix multiple', t => {
 	const expected = '.class, [type="test-text"], [class*="test-lorem-1 test-lorem-2"], [id^="test-myID"] { color:red; }';
-	const expected = '.class, [type="text"], [class*="lorem-1 lorem-2"], [id^="myID"] { color:red; }';
+	const fixtures = '.class, [type="text"], [class*="lorem-1 lorem-2"], [id^="myID"] { color:red; }';
 	t.is(processing(fixtures, {prefix: 'test-'}), expected);
 });
 
