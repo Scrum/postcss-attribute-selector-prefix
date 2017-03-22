@@ -18,8 +18,8 @@ export default postcss.plugin('postcss-attribute-selector-prefix', options => {
 					return match;
 				}
 
-				return match.replace(/(\[.*?="?)(.*?)("?])/, (match, before, required, after) => {
-					return `${before}${options.prefix}${required}${after}`;
+				return match.replace(/(\[.*?="?)(.*?)("?])/, (match, before, requireds, after) => {
+					return `${before}${requireds.split(' ').map(required => options.prefix + required).join(' ')}${after}`;
 				});
 			});
 		});
