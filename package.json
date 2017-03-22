@@ -45,11 +45,7 @@
 
   },
   "devDependencies": {
-<<<<<<< HEAD
     "ava": "*",
-=======
-    "ava": "0.18.2",
->>>>>>> origin/greenkeeper/initial
     "babel-cli": "^6.23.0",
     "ava-codemods": "^0.3.2",
     "babel-eslint": "^7.1.1",
