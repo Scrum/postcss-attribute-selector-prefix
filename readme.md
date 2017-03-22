@@ -12,7 +12,7 @@ Needs to escape from the third-party frameworks.
 ## Install
 
 ```bash
-$ npm install postcss-at-rules-variables
+$ npm install postcss-attribute-selector-prefix 
 ```
 
 > **Note:** This project is compatible with node v4+
