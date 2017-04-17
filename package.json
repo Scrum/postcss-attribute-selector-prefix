@@ -65,7 +65,7 @@
     "eslint-plugin-require-path-exists": "^1.1.5",
     "eslint-plugin-xo": "^1.0.0",
     "husky": "^0.13.2",
-    "np": "^2.11.0",
+    "np": "^2.13.2",
     "nyc": "^10.1.2",
     "testen": "^2.2.0",
     "updtr": "^0.2.3"
