@@ -49,7 +49,7 @@
     "ava-codemods": "^0.3.2",
     "babel-eslint": "^7.2.2",
     "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-babili": "^0.0.12",
+    "babel-preset-babili": "^0.1.1",
     "babel-preset-env": "^1.3.2",
     "babel-register": "^6.24.1",
     "clinton": "^0.12.0",
