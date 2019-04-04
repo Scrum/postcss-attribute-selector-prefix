@@ -22,8 +22,7 @@
     "test": "nyc ava",
     "lintjs": "eslint ./src/*.js ./test/*.js --fix",
     "lintmd": "eslint *.md --fix",
-    "pretest": "clinton && npm run lintjs && npm run lintmd",
-    "update": "updtr && ava-codemods --force"
+    "pretest": "clinton && npm run lintjs && npm run lintmd"
   },
   "files": [
     "lib/"
