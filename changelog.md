@@ -1,5 +1,45 @@
-<a name="0.1.0"></a>
-# 0.1.0 (2017-03-22)
+## <small>0.1.1 (2019-04-04)</small>
+
+* build: add yaspeller, close #86 ([c7a2c23](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/c7a2c23)), closes [#86](https://github.com/GitScrum/postcss-attribute-selector-prefix/issues/86)
+* build: and prettier for eslint, close #133, close #149 ([3243d30](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/3243d30)), closes [#133](https://github.com/GitScrum/postcss-attribute-selector-prefix/issues/133) [#149](https://github.com/GitScrum/postcss-attribute-selector-prefix/issues/149)
+* build: change build system and update depDev ([90de8d6](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/90de8d6))
+* build: drop support old node ([7d2d9d3](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/7d2d9d3))
+* build: remove from lint stage ([0a83846](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/0a83846))
+* build: remove update ([30b0454](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/30b0454))
+* build: update ([6f72df5](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/6f72df5))
+* build: update build process ([aaa6888](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/aaa6888))
+* style: indent ([db4117c](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/db4117c))
+* style: linting ([8dc97e2](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/8dc97e2))
+* style: prettier ([cd6c381](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/cd6c381))
+* docs: kinting and remove testen badges ([3db6da5](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/3db6da5))
+* docs: remove license ([7510bfb](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/7510bfb))
+* ci: add last node version ([32c081c](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/32c081c))
+* perf: linting ([b2e5030](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/b2e5030))
+* typo ([aa34fc1](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/aa34fc1))
+* Update .gitignore ([5226efe](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/5226efe))
+* Update package.json ([94ad255](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/94ad255))
+* Update readme.md ([4f805d9](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/4f805d9))
+* chore(changelog): Update changelog ([0d8f36f](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/0d8f36f))
+* chore(package): update ava to version 0.19.1 ([b152599](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/b152599))
+* chore(package): update babel-cli to version 6.24.1 ([d83e47e](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/d83e47e))
+* chore(package): update babel-eslint to version 7.2.2 ([3df0e43](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/3df0e43))
+* chore(package): update babel-preset-babili to version 0.1.2 ([7ef0cf2](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/7ef0cf2))
+* chore(package): update babel-preset-env to version 1.3.2 ([0d29f3f](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/0d29f3f))
+* chore(package): update babel-register to version 6.24.1 ([1483dc2](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/1483dc2))
+* chore(package): update clinton to version 0.12.0 ([600ed59](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/600ed59))
+* chore(package): update conventional-changelog-lint to version 1.1.8 ([df26814](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/df26814))
+* chore(package): update coveralls to version 2.13.0 ([98dbd90](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/98dbd90))
+* chore(package): update eslint to version 3.19.0 ([0572dab](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/0572dab))
+* chore(package): update eslint-config-xo to version 0.18.2 ([5350170](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/5350170))
+* chore(package): update husky to version 0.13.4 ([8de90c9](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/8de90c9))
+* chore(package): update np to version 2.13.2 ([70e4878](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/70e4878))
+* chore(package): update nyc to version 10.2.0 ([8b5ec4a](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/8b5ec4a))
+* chore(package): update nyc to version 10.3.0 ([a37927c](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/a37927c))
+* chore(package): update postcss to version 5.2.17 ([d458280](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/d458280))
+
+
+
+## 0.1.0 (2017-03-22)
 
 * 0.1.0 ([ab6de96](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/ab6de96))
 * Update test-plugin.js ([a231c00](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/a231c00))
@@ -53,8 +93,7 @@
 
 
 
-<a name="0.0.12"></a>
-## 0.0.12 (2016-12-15)
+## <small>0.0.12 (2016-12-15)</small>
 
 * 0.0.12 ([d441d05](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/d441d05))
 * chore(changelog): Update changelog ([d891bae](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/d891bae))
@@ -63,8 +102,7 @@
 
 
 
-<a name="0.0.11"></a>
-## 0.0.11 (2016-12-12)
+## <small>0.0.11 (2016-12-12)</small>
 
 * 0.0.11 ([dc20aac](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/dc20aac))
 * bump ([f18089a](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/f18089a))
@@ -113,8 +151,7 @@
 
 
 
-<a name="0.0.10"></a>
-## 0.0.10 (2016-08-02)
+## <small>0.0.10 (2016-08-02)</small>
 
 * Remove package-config-checker, not use ([b68d317](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/b68d317))
 * Update build with babel ([faae371](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/faae371))
@@ -139,8 +176,7 @@
 
 
 
-<a name="0.0.9"></a>
-## 0.0.9 (2016-06-29)
+## <small>0.0.9 (2016-06-29)</small>
 
 * bump ([9ddf638](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/9ddf638))
 * bump ([648dbb6](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/648dbb6))
@@ -153,8 +189,7 @@
 
 
 
-<a name="0.0.8"></a>
-## 0.0.8 (2016-06-16)
+## <small>0.0.8 (2016-06-16)</small>
 
 * bump ([8fcea3a](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/8fcea3a))
 * Fixed #34, change babel preset ([6949a49](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/6949a49)), closes [#34](https://github.com/GitScrum/postcss-attribute-selector-prefix/issues/34)
@@ -167,8 +202,7 @@
 
 
 
-<a name="0.0.7"></a>
-## 0.0.7 (2016-05-23)
+## <small>0.0.7 (2016-05-23)</small>
 
 * bump ([f21877f](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/f21877f))
 * Fixed #31, fixed files path ([071f515](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/071f515)), closes [#31](https://github.com/GitScrum/postcss-attribute-selector-prefix/issues/31)
@@ -178,8 +212,7 @@
 
 
 
-<a name="0.0.6"></a>
-## 0.0.6 (2016-05-19)
+## <small>0.0.6 (2016-05-19)</small>
 
 * bump ([5f11de9](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/5f11de9))
 * Fixed #28, added files to pkg.json ([8e51e1d](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/8e51e1d)), closes [#28](https://github.com/GitScrum/postcss-attribute-selector-prefix/issues/28)
@@ -190,8 +223,7 @@
 
 
 
-<a name="0.0.5"></a>
-## 0.0.5 (2016-05-06)
+## <small>0.0.5 (2016-05-06)</small>
 
 * Fixed #18, update readme ([ab76b7a](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/ab76b7a)), closes [#18](https://github.com/GitScrum/postcss-attribute-selector-prefix/issues/18)
 * Fixed #19, forgot 0.0.4 ([63e1fbc](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/63e1fbc)), closes [#19](https://github.com/GitScrum/postcss-attribute-selector-prefix/issues/19)
@@ -205,8 +237,7 @@
 
 
 
-<a name="0.0.4"></a>
-## 0.0.4 (2016-04-27)
+## <small>0.0.4 (2016-04-27)</small>
 
 * Fixed #11, change xo to eslint ([f35efa2](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/f35efa2)), closes [#11](https://github.com/GitScrum/postcss-attribute-selector-prefix/issues/11)
 * Fixed #15, node 6 in travis config ([c60e877](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/c60e877)), closes [#15](https://github.com/GitScrum/postcss-attribute-selector-prefix/issues/15)
@@ -216,8 +247,7 @@
 
 
 
-<a name="0.0.3"></a>
-## 0.0.3 (2016-04-25)
+## <small>0.0.3 (2016-04-25)</small>
 
 * add nyc and sublime config ([f2c7df2](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/f2c7df2))
 * bump ([3bcacd7](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/3bcacd7))
@@ -226,8 +256,7 @@
 
 
 
-<a name="0.0.2"></a>
-## 0.0.2 (2016-04-22)
+## <small>0.0.2 (2016-04-22)</small>
 
 * bump ([f6a88a3](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/f6a88a3))
 * Fixed #7, added updtr ([c8a722e](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/c8a722e)), closes [#7](https://github.com/GitScrum/postcss-attribute-selector-prefix/issues/7)
@@ -238,28 +267,26 @@
 
 
 
-<a name="0.0.1"></a>
-## 0.0.1 (2016-04-04)
+## <small>0.0.1 (2016-04-04)</small>
 
 * bump ([248633a](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/248633a))
 * Fixed #4, add babel-plugin-add-module-exports ([65fbd68](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/65fbd68)), closes [#4](https://github.com/GitScrum/postcss-attribute-selector-prefix/issues/4)
 * Fixed #5, update editorconfig ([cf568f2](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/cf568f2)), closes [#5](https://github.com/GitScrum/postcss-attribute-selector-prefix/issues/5)
 * Update readme, change tab to space ([41df267](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/41df267))
 * update readme, remove default from require ([226f525](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/226f525))
-* Update README.md ([1041219](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/1041219))
 * Update README.md ([4555ce7](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/4555ce7))
-* Update README.md ([0b9bbaa](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/0b9bbaa))
+* Update README.md ([1041219](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/1041219))
 * Update README.md ([d46c082](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/d46c082))
 * Update README.md ([2930589](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/2930589))
 * Update README.md ([68d8288](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/68d8288))
 * Update README.md ([4c389bb](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/4c389bb))
 * Update README.md ([213e112](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/213e112))
+* Update README.md ([0b9bbaa](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/0b9bbaa))
 * v0.0.0 ... v0.0.1 ([3f9986e](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/3f9986e))
 
 
 
-<a name="0.0.0"></a>
-# 0.0.0 (2016-03-23)
+## 0.0.0 (2016-03-23)
 
 * bump ([a027462](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/a027462))
 * Fixed #1, init project ([3c93984](https://github.com/GitScrum/postcss-attribute-selector-prefix/commit/3c93984)), closes [#1](https://github.com/GitScrum/postcss-attribute-selector-prefix/issues/1)
