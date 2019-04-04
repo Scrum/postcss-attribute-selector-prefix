@@ -3,9 +3,9 @@
   "version": "0.1.1",
   "description": "A attribute selector prefixer for postcss",
   "license": "MIT",
-  "repository": "GitScrum/postcss-attribute-selector-prefix",
-  "homepage": "GitScrum/postcss-attribute-selector-prefix#readme",
-  "bugs": "GitScrum/postcss-attribute-selector-prefix/issues",
+  "repository": "scrum/postcss-attribute-selector-prefix",
+  "homepage": "scrum/postcss-attribute-selector-prefix#readme",
+  "bugs": "scrum/postcss-attribute-selector-prefix/issues",
   "author": {
     "name": "Ivan Demidov",
     "email": "Scrum@list.ru",
