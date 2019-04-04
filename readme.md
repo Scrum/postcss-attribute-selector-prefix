@@ -1,4 +1,4 @@
-# postcss-attribute-selector-prefix <a href="https://github.com/postcss/postcss"><img align="left" height="49" title="PostCSS" src="http://postcss.github.io/postcss/logo.svg"></a>
+# postcss-attribute-selector-prefix <a href="https://github.com/postcss/postcss"><img align="left" height="49" src="http://postcss.github.io/postcss/logo.svg"></a>
 
 > [PostCSS](https://github.com/postcss/postcss) plugin adds a namespace/prefix to attribute selector.
 
@@ -119,24 +119,3 @@ Example: `['type', 'alt']`
     color: red; 
 }
 ```
-
-## LICENSE
-
-> MIT License (MIT)
-
->Copyright (c) Ivan Demidov <scrum@list.ru>
-
-> Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-> The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-
-[testen repo]:              https://github.com/egoist/testen
